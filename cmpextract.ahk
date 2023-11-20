@@ -99,7 +99,7 @@ for index, char in tex
 
 If InStr(title, cmp)
 {
-	Run, %A_ScriptDir%\MiniCap.exe -captureregion 576 417 703 544 -capsound -exit -save "C:\Users\arnas\Desktop\bowieworld_failai\bwart2\%name%.bmp"
+	Run, %A_ScriptDir%\MiniCap.exe -captureregion 576 417 703 544 -capsound -exit -save "%A_ScriptDir%\%name%.bmp"
 
 	WinActivate, ahk_class CmpView
 	WinWaitActive, ahk_class CmpView
